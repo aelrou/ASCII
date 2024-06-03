@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+	font-family: "Georgia", Serif;
+	color: #666666;
+}
+table {
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	border-color: #cccccc;
+	border-collapse: collapse;
+	padding: 8px;
+	margin: 0px 0px 32px 0px;
+}
+td {
+	border-style: solid;
+	border-width: 1px 0px 0px 1px;
+	border-color: #cccccc;
+	padding: 4px;
+}
+td.control {
+	background: rgb(191, 191, 191);
+}
+td.whitespace {
+	background: rgb(164, 244, 255);
+}
+td.special {
+	background: rgb(172, 191, 255);
+}
+td.filesystem {
+	background: rgb(255, 219, 141);
+}
+td.alphanumeric {
+	background: rgb(207, 255, 175);
+}
+td.extended {
+	background: rgb(255, 253, 164);
+}
+td.ambiguous {
+	background: rgb(255, 182, 182);
+}
