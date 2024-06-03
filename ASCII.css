@@ -23,19 +23,19 @@ td.control {
 td.whitespace {
 	background: rgb(164, 244, 255);
 }
-td.special-key {
+td.typeable-special {
 	background: rgb(180, 210, 255);
 }
 td.filesystem {
 	background: rgb(255, 219, 141);
 }
-td.alphanumeric {
+td.alpha-numeric {
 	background: rgb(207, 255, 175);
 }
-td.special-alt {
+td.obsure-special {
 	background: rgb(230, 170, 255);
 }
-td.extended {
+td.alpha-extended {
 	background: rgb(255, 255, 120);
 }
 td.ambiguous {
