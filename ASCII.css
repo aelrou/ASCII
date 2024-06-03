@@ -6,7 +6,7 @@ body {
 table {
 	border-style: solid;
 	border-width: 0px 1px 1px 0px;
-	border-color: #cccccc;
+	border-color: #999999;
 	border-collapse: collapse;
 	padding: 8px;
 	margin: 0px 0px 32px 0px;
@@ -14,7 +14,7 @@ table {
 td {
 	border-style: solid;
 	border-width: 1px 0px 0px 1px;
-	border-color: #cccccc;
+	border-color: #999999;
 	padding: 4px;
 }
 td.control {
@@ -23,8 +23,8 @@ td.control {
 td.whitespace {
 	background: rgb(164, 244, 255);
 }
-td.special {
-	background: rgb(172, 191, 255);
+td.special-key {
+	background: rgb(180, 210, 255);
 }
 td.filesystem {
 	background: rgb(255, 219, 141);
@@ -32,9 +32,12 @@ td.filesystem {
 td.alphanumeric {
 	background: rgb(207, 255, 175);
 }
+td.special-alt {
+	background: rgb(230, 170, 255);
+}
 td.extended {
-	background: rgb(255, 253, 164);
+	background: rgb(255, 255, 120);
 }
 td.ambiguous {
-	background: rgb(255, 182, 182);
+	background: rgb(255, 155, 155);
 }
