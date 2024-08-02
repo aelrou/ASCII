@@ -209,7 +209,7 @@
             <td class="ambiguous">0156 &#156;</td>
             <td class="control">0157 &#157;</td>
             <td class="ambiguous">0158 &#158;</td>
-            <td class="ambiguous">0159 &#159;</td>
+            <td class="alpha-extended">0159 &#159;</td>
         </tr>
         <tr>
             <td class="whitespace">0160 &#160;</td>
@@ -288,7 +288,7 @@
             <td class="alpha-extended">0219 &#219;</td>
             <td class="alpha-extended">0220 &#220;</td>
             <td class="alpha-extended">0221 &#221;</td>
-            <td class="ambiguous">0222 &#222;</td>
+            <td class="alpha-extended">0222 &#222;</td>
             <td class="alternate">0223 &#223;</td>
         </tr>
         <tr>
@@ -328,7 +328,7 @@
             <td class="alpha-extended">0251 &#251;</td>
             <td class="alpha-extended">0252 &#252;</td>
             <td class="alpha-extended">0253 &#253;</td>
-            <td class="ambiguous">0254 &#254;</td>
+            <td class="alpha-extended">0254 &#254;</td>
             <td class="alpha-extended">0255 &#255;</td>
         </tr>
     </table>
@@ -346,5 +346,18 @@
             <td class="ambiguous">ambiguous</td>
         </tr>
     </table>
-    </body>
+
+    <table>
+        <tr>
+            <td class="ambiguous">0159</td>
+            <td class="ambiguous">Convert.ToString((char)159) == ???</td>
+        </tr><tr>
+            <td class="alpha-extended">0255</td>
+            <td class="alpha-extended">Convert.ToString((char)255) == &#255;</td>
+        </tr><tr>
+            <td class="alpha-extended">0159</td>
+            <td class="alpha-extended">Convert.ToString((char)255).ToUpper() == &#159;</td>
+        </tr>
+    </table>
+</body>
 </html>
